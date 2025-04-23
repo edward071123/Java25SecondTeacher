@@ -1,10 +1,10 @@
-## 職訓 2025 第二季 成人班 課堂筆記&內容
+## Java 101
+Course materials and source code
 
+## File Management
 
-## 檔案架構
+Three main folders
 
-工作區的兩個資料夾介紹:
-
-- `src`: 根據課堂順序放置上課教受過的內容提供學員複習
-- `lib`: 依賴套件
-- `bin`: 編譯後的class編譯後的class
+- `src`: source code files are placed in the folder.
+- `lib`: library
+- `bin`: for hosting executable .class files
