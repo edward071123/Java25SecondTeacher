@@ -41,10 +41,12 @@ public class BasicDeclare {
          * 陣列的長度是固定的, 不能改變
          * 陣列的長度是從0開始計算
          */
-        // int[] bingo = {7, 22, 89, 55, 33, 99};
-        // System.out.println(bingo[5]);
-        // System.out.println(bingo[2]);
+        int[] bingo = {7, 22, 89, 55, 33, 99};
+        System.out.println(bingo[5]);
+        System.out.println(bingo[2]);
 
+        float[] weight2 ={288.3F,27.3F};
+        boolean[] isStudent = {true, false, true};
         // String[] students = {"A1", "A2", "A3"};
         // System.out.println(students[1]);
 
