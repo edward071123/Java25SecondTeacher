@@ -4,12 +4,17 @@ public class MethodInfo {
         sayHello1();
 
         // 有輸入參數 ＆ 沒有回傳值
+        String inputName = "David";
+
         sayHello2("Tom");
 
         // 有輸入參數 ＆ 有回傳值
         // 需要用變數接回傳值
         String result = sayHello3("Jerry");
         System.out.println(result);
+
+        String getRsult = checkScore(88);
+        System.out.println(getRsult);
         
     }
 
@@ -55,5 +60,31 @@ public class MethodInfo {
     public static String sayHello3(String name) {
         return "Hi " + name;
     }
+    /*
+     *寫一個成績判斷的metohd 成績判斷的checkScore 
+     * 輸入分數(int)
+     * method內容 
+     * 用if elseif 判斷學生分數
+     * 如果分數超過90分 印出(超棒)
+     * 如果分數80~89分 印出(很好)
+     * 如果分數60~79分 印出(好)
+     * 其他 印出(ok)
+     * 回傳結果 印出(String)
+     */
+    public static String checkScore(int score) {
+        String result = "";
+        if (score >= 90 && score <= 100) {
+            result = "超棒";
+        } else if (score >= 80 && score <= 89) {
+            result = "很好";
+        } else if (score >= 60 && score <= 79) {
+            result = "好";
+        } else if (score >= 0 && score <= 59) {
+            result = "你好爛";
+        }
+        return result; // 確保回傳結果
+    }
+
+
 
 }
