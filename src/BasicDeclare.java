@@ -17,11 +17,11 @@ public class BasicDeclare {
          *
          * boolean: 布林, true/false
          */
-        // int age = 25;
+        // long age = 254646126L; 整數, 需要加上L
         // System.out.println(age);
 
-        // float weight1 = 49.4F;
-        // System.out.println(weight1);
+        float weight1 = 49.4F;
+        System.out.println(weight1);
 
         // double weight2 = 49.49;
         // System.out.println(weight2);
@@ -29,8 +29,8 @@ public class BasicDeclare {
         // char c1 = 'Y';
         // System.out.println(c1);
 
-        // String name = "Edward";
-        // System.out.println(name);
+        String name = "かなえさん";
+        System.out.println(name);
 
         // boolean isStudent = true; // false
         // System.out.println(isStudent);
