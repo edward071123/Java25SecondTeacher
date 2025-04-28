@@ -8,14 +8,14 @@ public class LogicalOperation {
          *  + : 加法
          */
         // int a = 5;
-        // int b = 12;
+        // int b = 18;
         // int sum = a + b;
         // System.out.println(sum);
 
         /*
          *  - : 減法
          */
-        // int a = 5;
+        // int a = 5; 
         // int b = 12;
 
         // int diff1 = b - a;
@@ -38,7 +38,7 @@ public class LogicalOperation {
         // int a = 5;
         // int b = 12;
 
-        // double quotiend1  = a / b;
+        // double quotiend1  = a / b; 分母不要為0, 否則會報錯
         // System.out.println(quotiend1);
 
         // double quotiend2  = b / a;
@@ -77,11 +77,11 @@ public class LogicalOperation {
         /*
          *  > : 大於
          */
-        // int a = 5;
-        // int b = 12;
+        int a = 5;
+        int b = 12;
 
-        // boolean greaterThen = (a > b);
-        // System.out.println(greaterThen);
+        boolean greaterThen = (a > b);
+        System.out.println(greaterThen);
 
 
         /*
@@ -108,7 +108,9 @@ public class LogicalOperation {
 
 
         /*
-         *  && : 並且
+         *  && : 並且 AND
+         *  兩個條件都成立才成立, 否則不成立
+         *  例如: (a < b) && (b > a) => true && false => false
          */
         // boolean and = (a < b) && (b > a);
         // System.out.println(and);
@@ -121,6 +123,7 @@ public class LogicalOperation {
 
         /*
          *  !  : 反轉
+         *  例如: !(a < b) => true => false
          */
         // boolean not = !(a < b);
         // System.out.println(not);
@@ -136,6 +139,7 @@ public class LogicalOperation {
          *  -- : 自減1
          */
         // int a = 5;
+        // a = a - 1;
         // a--;
         // System.out.println(a);
 
@@ -144,6 +148,7 @@ public class LogicalOperation {
          */
         // int a = 5;
         // a += 2;
+        // a = a + 2;
         // System.out.println(a);
 
         /*

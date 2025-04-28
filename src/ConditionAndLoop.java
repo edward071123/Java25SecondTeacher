@@ -12,10 +12,15 @@ public class ConditionAndLoop {
         // int a = 2;
         // int b = 3;
 
-        // if((a <= b)) {
+        // if(!(a <= b)) {
         //     System.out.println("a 的確 <= b");
         // } else {
         //     System.out.println("a 沒有 <= b");
+        // }
+        // if ((a == 2) || (b == 3 )){
+        //     System.out.println("a="+a+" or b="+b);
+        // } else {
+        //     System.out.println("a="+a+"沒有 b="+b);
         // }
 
         /*
@@ -40,6 +45,19 @@ public class ConditionAndLoop {
         // } else {
         //     System.out.println("a 為2,3,4以外的數字");
         // }
+        int grade = 50;
+        if ((grade >= 90 && grade <= 100)){
+            System.out.println("超棒");
+        }
+        else if ((grade >= 80 && grade <= 89)){
+            System.out.println("很好");
+        }
+        else if ((grade >= 60 && grade <= 79)){
+            System.out.println("好");
+        }
+        else if ((grade >= 0 && grade <= 59)){
+            System.out.println("你好爛");
+        }
 
         /*
          * 簡化if else 寫法
