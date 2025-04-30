@@ -22,8 +22,28 @@ public class Bank {
         return this.balance1;
     }
 
-    public void setBalance1(int balance1) {
-        this.balance1 = this.balance1+balance1;
+    public void setBalance1(int balance1,String action,int balance1) {
+        if(account !=this.account){
+            System.out.println("您的帳號輸入錯誤,無法繼續執行此交易");
+
+        } else{
+            if (action == "deposit"){
+                if(balance1>0){
+                    this.balance1 = this.balance1+balance1;
+                }else{
+                    System.out.println("存進來的金額需要大於0");
+                }
+            }
+            if(action == "withdarw"){
+                if(this.balance1 >= balance1){
+                    this.balance1=this.balance1+balance1;
+                }else{
+                    System.out.println("");
+                }
+            }
+
+        }
+        
     }
     
 
