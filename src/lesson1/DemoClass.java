@@ -1,8 +1,5 @@
 package lesson1;
 
-import basic.Person;
-import lesson1.homework.traning.Employee;
-
 public class DemoClass {
     public static void main(String[] args) {
         // Car c1 = new Car("001","黃色" );
@@ -128,11 +125,14 @@ public class DemoClass {
          * 最後在DemoClass 實作一個 Employee 物件 且印出 getName()
          */
 
-        lesson1.homework.traning.Employee e1 = new lesson1.homework.traning.Employee("E1");
-        System.out.println(e1.getName());
+        // lesson1.homework.traning.Employee e1 = new lesson1.homework.traning.Employee("E1");
+        // System.out.println(e1.getName());
 
-        Employee e2 = new Employee("E2");
-        System.out.println(e2.getName());
+        // Employee e2 = new Employee("E2");
+        // System.out.println(e2.getName());
+        Student s1= new Student("teacher1");
+        s1.setScore1("teacher1",55);
+        
     }
 
 }
